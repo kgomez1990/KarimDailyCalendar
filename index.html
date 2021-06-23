@@ -18,13 +18,14 @@
         <div class="container">
             <h1 class="display-4">Karim's Daily Calendar</h1>
             <p class="lead">Please Click into TimeSlot and give a summary of meeting.</p>
+            <p id="current-date-and-time"></p>
         </div>
     </div>
 
     <div class="table table-dark table-striped">
         <table class="table">
             <thead>
-                <tr>
+                <tr id="rows">
                     <th scope="col" class="left-column">Time</th>
                     <th scope="col" class="middle-column">Reason for Appointment</th>
                     <th scope="col" class="right-column">Save Icon</th>
@@ -33,54 +34,62 @@
             <tbody>
                 <tr>
                     <th scope="row">9am</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">10pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">11am</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">12am</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 <tr>
                     <th scope="row">1pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 </tr>
                 <tr>
                     <th scope="row">2pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">3pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">4pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
                 <tr>
                     <th scope="row">5pm</th>
-                    <td class="middle-column">Start Typing...</td>
-                    <td class="right-column">Save Icon</td>
+                    <td class="middle-column"><textarea></textarea></td>
+                    <td class="right-column"><i class="far fa-save"></i></td>
                 </tr>
             </tbody>
         </table>
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/8441fdc0a0.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
