@@ -1,3 +1,5 @@
+
+
 setInterval(function () {
 
     $("#current-date-and-time").text(moment().format('MMMM Do YYYY, h:mm:ss a'))
@@ -10,6 +12,8 @@ $(".fa-save").click(function (event) {
     localStorage.setItem(key, value)
 })
 
-for (let i = 9; i < 18; i++) {
-    
-}
+
+
+
+
+
